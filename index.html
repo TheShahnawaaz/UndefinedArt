@@ -806,21 +806,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 				<div class="login-form banner-posit">
 					<h3>Register Here</h3>
-					<form action="input.php">
+					<form action="https://formspree.io/f/xrgwevry" method="POST">
 						<input type="text" name="Name" placeholder="Full name" required="" />
 						<input type="text" name="Number" placeholder="Phone number" required="" />
 						<input type="email" name="Email" placeholder="Email" required="" />
 						<h3 class="w3ls-h3">select category
 						</h3>
 						<div class="left-w3-agile">
-							<select class="ship-sel">
-								<option>Select Art</option>
-								<option>Pencil Art</option>
-								<option>Paper Cutting Art</option>
-								<option> Stencil Portraits</option>
-								<option>Drawings</option>
+							<select class="ship-sel" name="Art-type" required>
+                <option value="" disabled selected>Select Art</option>
+                <option value="Pencil-art">Pencil Art</option>
+                <option value="Paper-cutting-art">Paper Cutting Art</option>
+                <option value="Stencil-portraits">Stencil Portraits</option>
+                <option value="Drawings">Drawings</option>
+              </select>
 
-							</select>
 							<input type="text" name="City" placeholder="City" required="" />
 						</div>
 						<div class="right-agileits">
